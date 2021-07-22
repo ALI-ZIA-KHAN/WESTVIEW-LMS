@@ -1,0 +1,48 @@
+.btn {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 6px;
+  color: #FFFFFF;
+  font-family: serif;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 20px;
+  /*background-color: #0F9E94;*/
+  background-color: transparent;
+  border: solid #fff 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  left:1390px;
+  position:absolute;
+  top:18px;
+  z-index: 1;
+}
+
+.btn:hover {
+  background: #fff;
+  color: #242424;
+  transition: all 0.3s ease-out;
+}
+
+.bg {
+  position: fixed; 
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bg::before {    
+    content: "";
+    background-image: url(https://cdn4.vectorstock.com/i/1000x1000/31/58/alphabet-background-vector-553158.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.05;
+}

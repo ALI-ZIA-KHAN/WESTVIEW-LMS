@@ -1,0 +1,61 @@
+
+
+
+/*.intro .video video {
+  object-fit: cover ;
+  height:70vh;
+  width:50%;
+  position: relative;
+  z-index: -1;
+  padding-top: 3rem ; 
+
+}
+
+.intro .video .content {
+  font-size: 1.5rem;
+  color: #666;
+}*/
+
+
+
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 3rem;
+}
+
+.intro .video {
+  flex:1 1 40rem;
+}
+
+.intro .video video {
+  object-fit: cover ;
+  height:65vh;
+  width:100%;
+  position: relative;
+  z-index: -1;
+  padding: 3rem ; 
+
+}
+
+/*.intro .video video {
+  height:65vh;
+  width:100%;
+}*/
+
+.intro .content{
+    flex:1 1 40rem;
+}
+
+.intro .content h3{
+    font-size: 3.5rem;
+    color: #666;
+}
+
+.intro .content p{
+    font-size: 1.5rem;
+    color: #666;
+    padding:1rem 0;
+}

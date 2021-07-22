@@ -1,0 +1,55 @@
+*{
+    margin: 0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+/* .hello{
+    color:cyan !important;
+} */
+:root{
+    --offcanvas-width:270px;
+    --topNavbarHeight:110.5px;
+}
+.sidebar-nav{
+    width: var(--offcanvas-width) !important;
+}
+.nav-class {
+    background-image: linear-gradient(to right,#a5cc82,#0abfbc,#a5cc82,#0abfbc,#a5cc82,#0abfbc,#a5cc82);
+}
+.left-side{
+    background-image: linear-gradient(to right,#c2e59c ,#64b3f4);
+    color: linear-gradient(to right,#525252 ,#3d72b4);
+  
+}
+.avatar {
+    vertical-align: middle;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
+
+@media(min-width:992px){
+
+body{
+    overflow: auto !important;
+}
+
+
+/* //after clking the button the sidebar appeared with focussed having rest body freezed, so we have to elminate that freezing with this pseudo code */
+    .offcanvas-backdrop ::before{
+        display: none !important;
+    }
+main{
+    margin-left: var(--offcanvas-width);
+}
+    .sidebar-nav{
+        transform: none !important;
+        visibility: visible !important;
+        top:var(--topNavbarHeight)  !important;
+        height:calc(100% - var(--topNavbarHeight))  !important;
+    }
+
+    .for-center{
+        margin: 2px auto !important;
+    }
+}
