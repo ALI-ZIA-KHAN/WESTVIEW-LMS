@@ -14,7 +14,7 @@ function Home() {
     <>
     <div className = "bg"></div>
     <Navbar />
-    <a class="btn" href="/sign-up">
+    <a class="btn" href="/login">
         SIGN UP
     </a>
     <Features />
