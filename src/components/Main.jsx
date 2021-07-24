@@ -21,7 +21,7 @@ return(
   <div class="card-body">
     <h5 class="card-title">DRAWING</h5>
     
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <a href="/quiz" class="btn btn-primary">Go somewhere</a>
   </div>
 </div>
   </div>
@@ -32,7 +32,7 @@ return(
   <div class="card-body">
     <h5 class="card-title">MATHEMATICS</h5>
     
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <a href="/quiz" class="btn btn-primary">Go somewhere</a>
   </div>
 </div>
   </div>
@@ -43,7 +43,7 @@ return(
   <div class="card-body">
     <h5 class="card-title">COMPUTER</h5>
     
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <a href="/quiz" class="btn btn-primary">Go somewhere</a>
   </div>
 </div>
   </div>
@@ -61,7 +61,7 @@ return(
   <div class="card-body">
     <h5 class="card-title">URDU</h5>
     
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <a href="/quiz" class="btn btn-primary">Go somewhere</a>
   </div>
 </div>
   </div>
@@ -72,7 +72,7 @@ return(
   <div class="card-body">
     <h5 class="card-title">ENGLISH</h5>
     
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <a href="/quiz" class="btn btn-primary">Go somewhere</a>
   </div>
 </div>
   </div>

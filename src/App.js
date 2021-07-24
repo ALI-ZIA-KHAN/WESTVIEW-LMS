@@ -6,6 +6,9 @@ import SignUp from "./components/pages/SignUp";
 import {NavLink} from 'react-router-dom';
 // import {Route,Switch,Router} from 'react-router-dom';
 import Dashboard from './components/Dashboard';
+import Quiz from "./components/Quiz";
+
+import Modelgen from './components/Modal';
 
 
 
@@ -23,6 +26,9 @@ function App() {
                  <Route exact path='/dashboard' component={Dashboard}/>
                 <Route exact path='/dashboard/:id' component={Dashboard}/> 
                  <Route exact path='/login' component={SignUp}/> 
+                 
+             <Route exact path='/quiz' component={Quiz}/> 
+             <Route exact path='/quizscore' component={Modelgen}/>
                 </Switch>
         </Router>
     </>
