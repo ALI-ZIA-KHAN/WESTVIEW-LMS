@@ -9,6 +9,7 @@ import Dashboard from './components/Dashboard';
 import Quiz from "./components/Quiz";
 
 import Modelgen from './components/Modal';
+import AboutUs from "./components/pages/AboutUs"
 
 
 
@@ -26,7 +27,7 @@ function App() {
                  <Route exact path='/dashboard' component={Dashboard}/>
                 <Route exact path='/dashboard/:id' component={Dashboard}/> 
                  <Route exact path='/login' component={SignUp}/> 
-                 
+                 <Route exact path='/about-us' component={AboutUs}/> 
              <Route exact path='/quiz' component={Quiz}/> 
              <Route exact path='/quizscore' component={Modelgen}/>
                 </Switch>

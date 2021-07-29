@@ -1,6 +1,6 @@
 .navbar {
-  background: linear-gradient(90deg, #43cea2, #185a9d);
-  height: 100px;
+  /*background: linear-gradient(90deg, #43cea2, #185a9d);*/
+  height: 150px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -36,7 +36,7 @@
 
 .nav-menu {
   display: grid;
-  grid-template-columns: repeat(6, auto);
+  grid-template-columns: repeat(5, auto);
   grid-gap: 10px;
   list-style: none;
   text-align: center;
@@ -50,16 +50,31 @@
 }
 
 .nav-links {
-  color: #fff;
+  color: black;
   display: flex;
   align-items: center;
   text-decoration: none;
   padding: 0.5rem 1rem;
   height: 100%;
+  font-family: 'Bebas Neue', cursive;
+  font-weight:bold;
 }
 
+
+
+.about-us {
+  color:#FF7A00;
+}
+
+.contact-us {
+  color:#799351;
+}
+
+.gallery {
+  color:#628395
+}
 .nav-links:hover {
-  border-bottom: 4px solid #fff;
+  border-bottom: 4px solid #FFBE0F;
   transition: all 0.2s ease-out;
 }
 
@@ -178,4 +193,50 @@
   }
 }
 
+@import url(https://fonts.googleapis.com/css?family=Rye);
 
+
+
+.banner {
+  position: absolute;
+  left:300px;
+  top:-70px;
+  display: block;
+  margin: 100px -200px;
+  width: 400px;
+  height: 60px;
+  border: 1px solid #8a1;
+  font: normal 30px/60px 'Rye';
+  text-align: center;
+  color: #451;
+  background: #9b2;
+  border-radius: 4px;
+  box-shadow: 0 0 30px rgba(0,0,0,.15) inset,
+      				0 6px 10px rgba(0,0,0,.15);
+}
+
+.banner::before,
+.banner::after {
+  content: '';
+  position: absolute;
+  z-index: 1;
+  left: -70px;
+  top: 24px;
+  display: block;
+  width: 40px;
+  height: 0px;
+  border: 30px solid #9b2;
+  border-right: 20px solid #791;
+  border-bottom-color: #94b81e;
+  border-left-color: transparent;
+  transform: rotate(-5deg);
+}
+
+.banner::after {
+  left: auto;
+  right: -70px;
+  border-left: 20px solid #791;
+  border-right: 30px solid transparent;
+  transform: rotate(5deg);
+
+}

@@ -1,5 +1,5 @@
 
-  @import url(https://fonts.googleapis.com/css?family=Anaheim);
+  /*@import url(https://fonts.googleapis.com/css?family=Anaheim);
 
   *{
     margin: 0;
@@ -120,7 +120,7 @@
   #carousel figure:nth-child(8) { transform: rotateY(280deg) translateZ(288px);}
   #carousel figure:nth-child(9) { transform: rotateY(320deg) translateZ(288px);}
   
-  img{
+  /*img{
       -webkit-filter: contrast(1);
       cursor: pointer;
       transition: all .5s ease;
@@ -150,4 +150,4 @@
   .logo-gif img{
       width:75%;
       height:400px;
-  }
+  }*/
