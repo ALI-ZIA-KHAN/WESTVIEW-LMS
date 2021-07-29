@@ -1,0 +1,698 @@
+/*import CollectionsBookmarkIcon from '@material-ui/icons/CollectionsBookmark';*/
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,4000,500,600,700,800,900&display=swap");
+
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*min-height: 100vh;*/
+  
+}
+
+/*.Portal {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh
+}*/
+
+.Portal img {
+  width: 280px;
+  height: 160px;
+  top:5px;
+  position: relative;
+  border-radius: 10px;
+}
+
+.Portal video {
+  width: 280px;
+  height: 100%;
+  top:5px;
+  position: relative;
+  border-radius: 10px;
+  
+}
+
+.Container {
+  background-image: url("https://images.squarespace-cdn.com/content/v1/5b0eb34b506fbef05a409324/1585763262995-PG139TNCOR3QYUZO7BF0/banner+small_3.jpg?format=2500w");
+  height: 450px;
+  width: 95%;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px 0;
+  margin-top:20px;
+  margin-left:30px;
+  z-index: 1;
+  /*opacity:0.7;*/
+}
+/*.coursecontainer{
+  position: absolute;
+  background-color: rgb(217, 235, 241);
+  height: 430px;
+  width:95%;
+  background-position: center;
+  border-radius: 15px;
+  background-size: cover;
+  margin-top:350px;
+  margin-left:30px;
+  opacity: 0.7;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}*/
+
+.Header {
+  position: relative;
+  background-color: #fff;
+  height: 330px;
+  width:80%;
+  background-position: center;
+  border-radius: 15px;
+  background-size: cover;
+  margin-top:230px;
+  margin-left:125px;
+  opacity: 0.7;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+.sections {
+  text-align: center;
+  top:560px;
+  left:400px;
+  position:absolute;
+  z-index: 1;
+}
+.sections a {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 1.8em;
+  padding-right:100px;
+  color:aquamarine;
+  font-weight: bold;
+  z-index: 1;
+  text-decoration: none;
+}
+
+
+
+
+.Avatar {
+  text-align: center;
+  position: absolute;
+  left: 600px;
+  top: 170px;
+  text-align: center;
+  z-index: 1;
+}
+
+
+/*----------------------------------MY COURSES-----------------------*/
+
+.MyCourses {
+
+  position: absolute;
+  /*background-color: rgb(217, 235, 241);*/
+  /*height: 430px;*/
+  background: #ebf5fc;
+  width:100%;
+  height:1400px;
+  background-position: center;
+  border-radius: 15px;
+  background-size: cover;
+  margin-top:-300px;
+  margin-left:30px;
+  /*opacity: 0.7;*/
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+
+
+  
+  /*width:100%;*/
+  
+  /*-webkit-clip-path: polygon(0 0, 100% 0, 100% 56%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 76%, 0 100%);*/
+    /*box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);*/
+    z-index:-1;
+  }
+
+  .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*max-width: 1200px;*/
+  flex-wrap: wrap;
+  padding: 40px 0;
+  text-align: center;
+  top:300px;
+  position:absolute;
+  
+}
+
+.container .card {
+  position: relative;
+  width: 320px;
+  height: 440px;
+  box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.05),
+    inset -5px -5px 5px rgba(255, 255, 255, 0.5),
+    5px 5px 5px rgba(0, 0, 0, 0.05), -5px -5px 5px rgba(255, 255, 255, 0.5);
+  border-radius: 15px;
+  margin: 30px;
+}
+
+.container .card .box {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  background: #ebf5fc;
+  background-color: rgba(5, 191, 214, 0);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  
+}
+
+.container .card:hover .box {
+  transform: translateY(-50px);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+  
+}
+
+.container .card .box .content {
+  padding: 20px;
+  text-align: center;
+}
+.container .card .box .content li {
+  text-align: left;
+  padding-left:10px;
+}
+.container .card .box .content h2 {
+  position: absolute;
+  top: -10px; 
+  right: 30px;
+  font-size: 8em;
+  color: rgba(0, 0, 0, 0.2);
+  transition: 0.5s;
+}
+
+
+.container .card:hover .box .content h2 {
+  color: rgba(0, 0, 0, 0.05);
+}
+
+.container .card .box .content h3 {
+  font-size: 1.1em;
+  color: #777;
+  z-index: 1;
+  transition: 0.5s;
+ 
+  
+}
+
+.container .card .box .content p {
+  font-size: 1em;
+  font-weight: 300;
+  color: #777;
+  z-index: 1;
+  transition: 0.5s;
+
+}
+
+/*---------------Science BOX ---------------*/
+.container .card .box .content h4 {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #777;
+  z-index: 1;
+  transition: 0.5s;
+  background-color: #11c0f5;
+  height:50px;
+  border-radius: 10px;
+  padding-top:10px;
+  color: white;
+  /*margin-top:15px;*/
+}
+.container .card .box .content h4:hover {
+  background-color: #0b84a8;
+ 
+}
+
+/*---------------MATHS BOX ---------------*/
+.container .card .box .content  .greenhover h4 {
+  background-color:rgb(58, 158, 58);
+  margin-top:15px;
+}
+.container .card .box .content .greenhover h4:hover {
+  background-color: green;
+}
+
+/*---------------ENGLISH BOX ---------------*/
+.container .card .box .content  .purplehover h4 {
+  background-color:#c45495;
+}
+.container .card .box .content .purplehover h4:hover {
+  background-color: #811755;
+}
+
+/*---------------SOCIAL STUDIES BOX ---------------*/
+.container .card .box .content  .yellowhover h4 {
+  background-color:rgb(235, 214, 23);
+}
+.container .card .box .content .yellowhover h4:hover {
+  background-color: rgb(235, 161, 23);
+}
+
+/*---------------ARTS % CRAFT BOX ---------------*/
+.container .card .box .content  .peachhover h4 {
+  background-color:rgb(230, 178, 163);
+}
+.container .card .box .content .peachhover h4:hover {
+  background-color: rgb(224, 126, 96);
+}
+
+
+
+
+
+/*.container .card:hover .box .content .det h3,
+.container .card:hover .box .content .det p {
+  color: #fff;
+}*/
+
+.fifth {
+  position:absolute;
+  top:1000px;
+}
+
+/*-------------------MY ACTIVITIES------------------*/
+.shape{
+  position: absolute;
+  top:1650px;
+  bottom: -.2rem; left: 0;
+  height:10rem;
+  width:100%;
+  background:url(/src/images/shape.png);
+  block-size:100rem 15rem;
+  filter: drop-shadow(0 -.1rem .1rem rgba(0,0,0,.2));
+  animation: animate 15s linear infinite;
+  z-index:1;
+}
+
+@keyframes animate{
+
+  0%{
+      background-position-x: 0rem;
+  }
+
+  100%{
+      background-position-x: 100rem;
+  }
+}
+
+
+.swing img {
+  top:1280px;
+  width:700px;
+  height: 700px;
+  padding:5px;
+  left:850px;
+  /*margin:10px;*/
+}
+
+.note img {
+  width:550px;
+  height:30rem;
+  /*margin:-100px -100 -100 -100px;*/
+  box-shadow: 30px 30px 30px rgba(0.1, 0.1, 0.1, 0.1);
+  position:absolute;
+  top:1900px;
+  left: 50px;
+}
+
+
+.myActivities {
+  text-align:center;
+  justify-content: center;
+  align-items: center;
+  position:absolute;
+  top:2050px;
+  left: 60px;
+}
+
+.myActivitiesHeader {
+  font-size: 3rem;
+  padding: 20px;
+  font-family: 'Caveat', cursive;
+}
+
+.myActivitiesPelement {
+  font-size: 1.5rem;
+  padding: 3px;
+  font-family: 'Caveat', cursive;
+}
+
+
+/*---------------------SCALLOP-------*/
+
+.colour-block {
+  background:#369A7E;
+  width:100%;
+  padding:7% 20% 10% 20%;
+  color:rgb(94, 81, 81);
+  position:absolute;
+  top:2600px;
+}
+.white-block {
+  background:#fff;
+  width:100%;
+  padding:7% 20% 10% 20%;
+  color:#369A7E;
+}
+.book img {
+  left:350px;
+  border-radius: 130px;
+  width:200px;
+  height:200px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  top:-80px;
+}
+.divider {
+  position:absolute;
+  top:250px;
+  left:210px;
+  
+}
+.divider h1 {
+  text-align:center;
+  font-size:60px;
+  font-family: 'Caveat', cursive;
+  /*font-family:'wire one', serif;*/
+  font-weight:normal;
+  color:#fff;
+}
+.divider p {
+  font-size:40px;
+  font-family: 'Caveat', cursive;
+  color:#fff;
+}
+
+
+/*----------------*/
+/*  SCALLOP down  */
+/*----------------*/
+.scallop-down{
+  height:100px;
+  width:100%;
+  background: -webkit-gradient(radial, 50% 0, 10, 50% 0, 40, from(#369A7E), color-stop(0.49, #369A7E), color-stop(0.51, #fff), to(white));
+-webkit-background-size: 49px 100%;
+position :absolute;
+top:3000px;
+}
+
+
+/*----------------*/
+/*  SCALLOP up    */
+/*----------------*/
+.scallop-up{
+  height:100px;
+  width:100%;
+  background: -webkit-gradient(radial, 50% 100%, 10, 50% 100%, 40, from(#369A7E), color-stop(0.49, #369A7E), color-stop(0.51, #fff), to(white));
+-webkit-background-size: 49px 100%;
+position :absolute;
+top:2500px;
+}
+
+
+/*---------------------my activities card -----------------*/
+
+.myActivitiesCards {
+  position:absolute;
+  background: url(https://thumbs.dreamstime.com/z/abstract-fun-background-different-geometric-shapes-seamless-pattern-creative-collage-trendy-style-covers-posters-flyers-164527126.jpg);
+  height:500px;
+  top:3050px;
+  /*z-index:-1;*/
+  /*opacity:0.7;*/
+  width:100%;
+}
+
+.cardsMovement {
+  position: relative;
+  left:180px;
+}
+
+.education {
+  --bg-color: #ffd861;
+  --bg-color-light: #ffeeba;
+  --text-color-hover: #4c5656;
+  --box-shadow-color: rgba(255, 215, 97, 0.48);
+}
+
+.credentialing {
+  --bg-color: #b8f9d3;
+  --bg-color-light: #e2fced;
+  --text-color-hover: #4c5656;
+  --box-shadow-color: rgba(184, 249, 211, 0.48);
+}
+
+.wallet {
+  --bg-color: #ceb2fc;
+  --bg-color-light: #f0e7ff;
+  --text-color-hover: #fff;
+  --box-shadow-color: rgba(206, 178, 252, 0.48);
+}
+
+.human-resources {
+  --bg-color: #dce9ff;
+  --bg-color-light: #f1f7ff;
+  --text-color-hover: #4c5656;
+  --box-shadow-color: rgba(220, 233, 255, 0.48);
+}
+
+.card {
+  width: 220px;
+  height: 321px;
+  background: #fff;
+  border-top-right-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  box-shadow: 0 14px 26px rgba(0, 0, 0, 0.04);
+  transition: all 0.3s ease-out;
+  text-decoration: none;
+}
+
+.card:hover {
+  transform: translateY(-5px) scale(1.005) translateZ(0);
+  box-shadow: 0 24px 36px rgba(0, 0, 0, 0.11),
+    0 24px 46px var(--box-shadow-color);
+}
+
+.card:hover .overlay {
+  transform: scale(4) translateZ(0);
+}
+
+.card:hover .circle {
+  border-color: var(--bg-color-light);
+  background: var(--bg-color);
+}
+
+.card:hover .circle:after {
+  background: var(--bg-color-light);
+}
+
+.card:hover p {
+  color: var(--text-color-hover);
+}
+
+.card:active {
+  transform: scale(1) translateZ(0);
+  box-shadow: 0 15px 24px rgba(0, 0, 0, 0.11),
+    0 15px 24px var(--box-shadow-color);
+}
+
+.card p {
+  font-size: 17px;
+  color: #4c5656;
+  margin-top: 30px;
+  z-index: 1000;
+  transition: color 0.3s ease-out;
+}
+
+.circle {
+  width: 131px;
+  height: 131px;
+  border-radius: 50%;
+  background: #fff;
+  border: 2px solid var(--bg-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  transition: all 0.3s ease-out;
+}
+
+.circle:after {
+  content: "";
+  width: 118px;
+  height: 118px;
+  display: block;
+  position: absolute;
+  background: var(--bg-color);
+  border-radius: 50%;
+  top: 7px;
+  left: 7px;
+  transition: opacity 0.3s ease-out;
+}
+
+.circle svg {
+  z-index: 10000;
+  transform: translateZ(0);
+}
+
+.overlay {
+  width: 118px;
+  position: absolute;
+  height: 118px;
+  border-radius: 50%;
+  background: var(--bg-color);
+  top: 70px;
+  left: 50px;
+  z-index: 0;
+  transition: transform 0.3s ease-out;
+}
+
+.add {
+  z-index: 1;
+}
+
+.orange {
+  color: orange;
+}
+
+.green {
+  color: #a1dd70;
+}
+
+.purple {
+  color: #a239ea;
+}
+.blue {
+  color: #4ca1a3;
+}
+
+.formatOne {
+  font-size: 2rem;
+}
+
+.formatTwo {
+  margin-left: 100px;
+  font-size: 2rem;
+}
+
+.formatOne:hover {
+  color: #fff;
+}
+
+.formatTwo:hover {
+  color: #fff;
+}
+
+.firstCard {
+  position:relative;
+ padding: 20px;
+ top:50px;
+ left:10px;
+}
+
+.secondCard {
+  padding: 20px;
+  position:relative;
+
+ top:-310px;
+ left:300px;
+}
+
+.thirdCard {
+position:relative;
+ padding: 20px;
+ top:-670px;
+ left:590px;
+}
+
+.fourthCard {
+  position:relative;
+ padding: 20px;
+ top:-1030px;
+ left:890px;
+}
+
+
+
+
+/*----------------------------------BORDER-------------------*/
+.demo img {
+  width:1300px;
+  height: 260px;
+  padding:5px;
+  left:10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  z-index:1;
+}
+
+
+
+.demo .hover14 figure {
+  top:4000px;
+  position: absolute;
+ 
+  
+}
+.demo .hover14 figure::before {
+	position: absolute;
+	top: 0;
+	left: -75%;
+	z-index: 2;
+	display: block;
+	content: '';
+	width: 50%;
+	height: 100%;
+	background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+	background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+	-webkit-transform: skewX(-25deg);
+	transform: skewX(-25deg);
+}
+.demo .hover14 figure:hover::before {
+	-webkit-animation: shine 2s;
+	animation: shine 2s;
+}
+@-webkit-keyframes shine {
+	100% {
+		left: 125%;
+	}
+}
+@keyframes shine {
+	100% {
+		left: 125%;
+	}
+}
+
+

@@ -1,0 +1,151 @@
+.whyUsCard {
+  background-color: transparent;
+  border:none;
+  opacity: 0.7;
+  margin-top: -5px;
+  margin-left:100px;
+  
+  }
+
+  .coreValues {
+    font-family: 'Pacifico', cursive;
+    color:#B97A95;
+  }
+  .whyUsCard p {
+    font-size: 2.0em;
+  }
+  .fa-lightbulb {
+    
+    font-size: 3.5rem;
+    z-index:1;
+    position:absolute;
+    top:1030px;
+    left:210px;
+    color: #71C9CE;
+    /*margin-left:110px;
+    margin-top:-300px;
+    margin-bottom:500px;
+    position: relative;*/
+  }
+
+  .secondBorder {
+    position:absolute;
+    top:1030px;
+    left:270px;
+  }
+
+  .fa-puzzle-piece {
+    margin-left: 0.5rem;
+    font-size: 3.5rem;
+    z-index:1;
+    position:absolute;
+    top:1030px;
+    left:710px;
+    color:#DF5E5E;
+  }
+
+  .thirdBorder {
+    position:absolute;
+    top:1030px;
+    left:800px;
+  }
+
+  .fa-graduation-cap {
+    margin-left: 0.5rem;
+    font-size: 3.5rem;
+    z-index:1;
+    position:absolute;
+    top:1030px;
+    left:1240px;
+    color:#3A6351;
+  }
+
+  .fourthBorder {
+    position:absolute;
+    top:1030px;
+    left:1330px;
+  }
+
+  .detailOne {
+    text-align:center;
+    width:300px;
+    height:100px;
+    margin-left:80px;
+    margin-top:30px;
+    font-family: 'Zilla Slab', serif;
+  }
+
+  .detailTwo {
+    text-align:center;
+    width:300px;
+    height:100px;
+    margin-left:595px;
+    margin-top:-110px;
+    font-family: 'Zilla Slab', serif;
+  }
+
+  .detailThree {
+    text-align:center;
+    width:300px;
+    height:100px;
+    margin-left:1145px;
+    margin-top:-110px;
+    font-family: 'Zilla Slab', serif;
+  }
+
+
+
+ .secondline  {
+  background-color: transparent;
+  border:none;
+  opacity: 0.7;
+  margin-top: 100px;
+  margin-left:100px;
+  }
+
+  .secondline p {
+    font-size: 2.0em;
+  }
+
+  .two {
+    
+    font-size: 3.5rem;
+    z-index:1;
+    position:absolute;
+    top:1290px;
+    left:210px;
+  }
+
+  .three {
+    font-size: 3.5rem;
+    z-index:1;
+    position:absolute;
+    top:1290px;
+    left:710px;
+  }
+
+  .four {
+    font-size: 3.5rem;
+    z-index:1;
+    position:absolute;
+    top:1290px;
+    left:1240px;
+  }
+
+  .secondlineSecondBorder {
+    position:absolute;
+    top:1280px;
+    left:270px;
+  }
+
+  .secondlineThirdBorder {
+    position:absolute;
+    top:1280px;
+    left:800px;
+  }
+
+  .secondlineFourthBorder {
+    position:absolute;
+    top:1280px;
+    left:1330px;
+  }

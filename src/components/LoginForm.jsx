@@ -472,6 +472,7 @@ function Login() {
 			<form >
 				<img src="https://raw.githubusercontent.com/sefyudem/Responsive-Login-Form/82b8d8efd3b0ac6382b9d0d71a99c6cf9dcefa23/img/avatar.svg" />
 				<h2 class="title">Welcome</h2>
+				
 				<div>
            		    	<h5>Choose one...</h5>
 					  <input type="radio" id="admin" name="role" value="admin"/>

@@ -4,6 +4,7 @@ import { useHistory } from "react-router";
 import {NavLink} from 'react-router-dom';
 import axios from 'axios'
 import "./LoginForm.css";
+import EmojiObjectsSharpIcon from '@material-ui/icons/EmojiObjectsSharp';
 
 
 function Login(){
@@ -430,6 +431,8 @@ else if(role=""){
 
 
 <h1>Welcome to login Page</h1>
+<i class="fas fa-chalkboard-teacher"></i>
+<i class="fas fa-lightbulb"></i>
 
 
 

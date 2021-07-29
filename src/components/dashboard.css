@@ -1,15 +1,15 @@
-*{
+/**{
     margin: 0%;
     padding:0%;
     box-sizing: border-box;
-}
+}*/
 /* .hello{
     color:cyan !important;
 } */
-:root{
+/*:root{
     --offcanvas-width:270px;
     --topNavbarHeight:110.5px;
-}
+}*/
 .sidebar-nav{
     width: var(--offcanvas-width) !important;
 }
@@ -21,18 +21,18 @@
     color: linear-gradient(to right,#525252 ,#3d72b4);
   
 }
-.avatar {
+/*.avatar {
     vertical-align: middle;
     width: 60px;
     height: 60px;
     border-radius: 50%;
-  }
+  }*/
 
 @media(min-width:992px){
 
-body{
+/*body{
     overflow: auto !important;
-}
+}*/
 
 
 /* //after clking the button the sidebar appeared with focussed having rest body freezed, so we have to elminate that freezing with this pseudo code */
